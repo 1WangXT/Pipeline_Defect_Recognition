@@ -1,0 +1,5 @@
+                 Class     Images  Instances          P          R      mAP50   mAP50-95
+                   all          9         12       0.94      0.111      0.487      0.128
+                  rust          9          9       0.82      0.333      0.456      0.181
+               crazing          9          2          1          0     0.0107    0.00304
+              bubbling          9          1          1          0      0.995      0.199
