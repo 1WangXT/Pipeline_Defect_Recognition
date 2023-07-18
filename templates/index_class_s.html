@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>分类系统</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="D:\WEB\static\style.css"> -->
+  </head>
+  <body>
+    <h2 id="title">分类系统</h2>
+    <br />
+    <br />
+    <img id="imageDisplay" width="320" height="240" src="data:;base64,{{ origin }}"/>
+    <img id="result_show" width="320" height="240" src="data:;base64,{{ result }}">
+    <br />
+    <form method="POST" enctype="multipart/form-data">
+      <br />
+      <input type="file" name="edu_image" >
+      <br />
+      <input id=“button_detect”  type="submit" value="开始分类" >
+    </form>
+    <br />
+    <div id="imagePath"></div>
+    <script>
+
+    </script>
+
+  </body>
+
+</html>

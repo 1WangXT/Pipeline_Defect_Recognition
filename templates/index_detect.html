@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>验证权重效果</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="D:\WEB\static\style.css"> -->
+  </head>
+  <body>
+    <h2 id="title">结果展示</h2>
+    <br />
+    <br />
+    <textarea id="resultText" rows="15" cols="140" ></textarea>
+    <script>
+      var resultText = "{{ result_text }}";
+      document.getElementById("resultText").value = resultText;
+    </script>
+    <br />
+    <form method="POST" enctype="multipart/form-data">
+      <input id=“button_detect”  type="submit" value="开始检测" >
+    </form>
+    <br />
+    <div id="imagePath"></div>
+  </body>
+  <style>
+    #title{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    background-color: cadetblue;
+}
+    #imageDisplay{
+        margin-left: 350px;
+        position: relative;
+    }
+    #button_detect{
+      width: 100px;
+      height: 40px;
+      background-color: skyblue;
+      font-size: larger;
+      margin-left: 900px;
+      margin-top: auto;
+    }
+
+  </style>
+</html>
